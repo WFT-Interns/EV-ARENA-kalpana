@@ -206,4 +206,15 @@ z-index: 10;
     font-size: 12px;
     margin: 5px 8px;
   }
+  /* for responsive */
+  @media screen and (max-width:790px) {
+        nav {
+            flex-direction: column;
+        }
+        nav li {
+            display: block;
+        }
+    }
+    
+  
   
