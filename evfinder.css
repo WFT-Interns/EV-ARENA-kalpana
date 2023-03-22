@@ -1,0 +1,310 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gotham', sans-serif;
+    box-sizing: border-box;
+}
+/*nav-section */
+.nav{
+    display: flex;
+    position: sticky;
+    overflow-y:scroll;
+    overflow-x: hidden;
+    top: 0;
+background-color:white;
+width: 100vw;
+z-index: 99;
+ 
+}
+
+.EV-logo{
+    margin-left: 20px;
+    margin-top: 25px;
+}
+.icon-location{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.address{
+    margin: 20px;
+    margin-left: 5px;
+    
+}
+.address h2{
+    margin: 0px;
+}
+.address p{
+    margin: 0px;
+}
+.content ul{
+    display: flex;
+    margin-left: 60px;
+    margin-top: 30px;
+    
+}
+.content ul a{
+    padding: 7px;
+    font-size: 15px;
+    text-decoration: none;
+    color: black; 
+}
+.content ul a:hover{
+    background: #add;
+    color: #47AF71;
+}
+.evfinder{
+    background-color: #47AF71;
+    padding-top: 5px;
+}
+
+.icon-search{
+    margin-top: 35px;
+    width: 20px;
+    height: 20px;
+    margin-left: 450px;
+    font-size: 20px;
+    opacity: 0.5;
+} 
+/* body-section */
+.list-of-vehicles ul{
+        margin-top: 50px;
+        margin-bottom: -180px;
+        top:20%;
+        text-align: center;
+        color:bl;
+        font-size: 40px;
+        left: 40%;
+        font-weight: bold;
+        justify-content: space-between;
+        
+    }
+    .list-of-vehicles ul a{
+        padding: 30px;
+        font-size: 15px;
+        text-decoration: none;
+        color: black;
+    }
+   
+   
+    .container{
+        border: 1px solid black;
+        height: 160px;
+        border-radius: 10px;
+        width: 620px;
+        margin-top: 190px;
+        margin-left: 350px;
+        background-color: white;
+        position: relative;
+        z-index: 1;
+        
+    }
+    .dropdown{
+        display: flex;
+        margin-top: 35px;
+        margin-left: 65px;
+        
+    }
+    .dropdown-content-evbrand{
+        height: 30px;
+        width: 130px;
+        border-radius: 5px;
+
+    }
+
+    .dropdown-content-evrange{
+        margin-left: 20px;
+        height: 30px;
+        width: 130px;
+        border-radius: 5px;
+
+    }
+    .dropdown-content-data{
+        margin-left: 20px;
+        height: 30px;
+        width: 70px;
+        
+    }
+    .to{
+        margin-top: 5px;
+        margin-left: 20px;
+
+    }
+    .dropdown-content-date2{
+        margin-left: 20px;
+        height: 30px;
+        width: 70px;
+
+    }
+    .Price-info{
+        display: flex;
+        margin-top: 30px;
+        margin-left: 25px;
+    }
+    .Price-info p{
+        font-size: 14px;
+    }
+.range_container {
+    display: flex;
+    flex-direction: column;
+    width: 170px;
+}
+.sliders_control {
+    position: relative;
+    min-height: 50px;
+    width: 300px;
+    margin: 10px 40px;
+}
+
+.form_control {
+    position: relative;
+    width: 55vh;
+    display: flex;
+   margin-top: -47px;
+   justify-content: space-between;
+    font-size: 5px;
+    color: #000000;
+}
+
+
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    pointer-events: all;
+    width: 24px;
+    height: 24px;
+    background-color: #000000;
+    border-radius: 50%;
+
+    cursor: pointer;
+}
+
+input[type="range"]::-moz-range-thumb {
+    pointer-events: all;
+    width: 24px;
+    height: 24px;
+    background-color: #000000;
+    border-radius: 50%;
+
+    cursor: pointer;
+}
+
+input[type="range"]::-webkit-slider-thumb:hover {
+    background: #000000;
+}
+
+input[type="range"]::-webkit-slider-thumb:active {
+    box-shadow: inset 0 0 3px #387bbe, 0 0 9px #387bbe;
+    -webkit-box-shadow: inset 0 0 3px #387bbe, 0 0 9px #387bbe;
+}
+
+input[type="number"] {
+    color: #8a8383;
+    width: 100px;
+    height: 30px;
+    font-size: 15px;
+    border: none;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    opacity: 1;
+}
+
+input[type="range"] {
+    -webkit-appearance: none;
+    appearance: none;
+    height: 2px;
+    width: 100%;
+    position: absolute;
+    background-color: #c6c6c6;
+    pointer-events: none;
+}
+
+#fromSlider {
+    height: 0;
+    z-index: 1;
+}
+    .search-Button{
+       background-color: black;
+       margin-left: 210px;
+        height: 30px;
+        width: 110px;
+        border-radius: 10px;
+    }
+    .search-Button p{
+        font-size: 10px;
+        color: white;
+        
+    }
+    .search-Button img{
+        margin-top: -25px;
+        margin-left: 80px;
+        width: 15px;
+        height: 30px;
+    }
+ 
+    .container1{
+        border: 1px solid gray;
+        height: 100vh;
+        width: 98%; 
+        border-radius: 10px 10px 0 0;
+        margin: -60px 13px;  
+    }
+
+    /* button-nav-section */
+    .buttom-nev-bar{
+        background-color: black;
+        width: 100%;
+        height: 150px;
+        display: flex;
+        padding: 10px;
+    }
+    .nav-list ul {
+        padding-top: 25px;
+        
+      }
+      
+      .nav-list li a {
+        padding: 15px;
+        color:white;
+        text-decoration: none;
+      }
+    
+      .logo-EV{
+        padding: 10px;
+        margin-left: 455px;
+        margin-top: 30px;
+      }
+      .logo-EV img{
+        height: 40px;
+        width: 160px;
+      }
+      .CR{
+    
+        margin-top: 20px;
+        color: white;
+        margin-left: 5px;
+        font-size: 13px;
+      }
+    
+      .social-media-icons{
+        margin-left: 350px;
+        margin-top: 30px;
+        size: 10px;
+      }
+      .social-media-icons img{
+        padding: 5px;
+      }
+      .social-media-icons h4{
+        color: white;
+        margin-left: 8px;
+      }
+      .social-media-icons p{
+        color: white;
+        font-size: 12px;
+        margin: 5px 8px;
+      }
+   
+ 
+    
+
